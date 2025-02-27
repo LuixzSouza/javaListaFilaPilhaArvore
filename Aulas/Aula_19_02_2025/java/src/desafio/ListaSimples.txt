@@ -1,0 +1,37 @@
+DESAFIO 1 – Estrutura de dados: Lista Simples
+
+Etapa 1: Definindo a Estrutura da Lista e do Nó
+Criação do Nó (Classe Nodo):
+Cada nó deve ter duas propriedades:
+dado: Para armazenar os dados do nó (pode ser qualquer tipo de dado, como números inteiros ou strings).
+proximo: Para armazenar a referência ao próximo nó da lista.
+Criação da Lista Simples (Classe ListaSimples):
+A lista deve ter uma referência à cabeça (primeiro nó), inicialmente configurada como null.
+Instruções:
+Crie a classe Nodo com um construtor que aceite um dado e um ponteiro para o próximo nó.
+Crie a classe ListaSimples com a variável cabeca, que será inicializada como null.
+
+Etapa 2: Implementando Operações Básicas
+Inserir Elemento no Início:
+Implemente um método inserirNoInicio(int dado) que insira um novo nó no início da lista.
+Imprimir Lista:
+Implemente um método imprimirLista() que percorra a lista e imprima os valores dos nós, separados por espaços.
+Verificar se a Lista Está Vazia:
+Implemente um método isEmpty() que retorne true se a lista estiver vazia (cabeça é null) e false caso contrário.
+Instruções:
+Adicione os métodos na classe ListaSimples para inserir elementos no início da lista, imprimir a lista e verificar se a lista está vazia.
+
+Etapa 3: Operações Avançadas
+Remover o Primeiro Elemento:
+Implemente o método removerDoInicio() que remove o primeiro nó da lista. Após a remoção, o nó seguinte à cabeça se tornará o novo primeiro nó.
+Buscar um Elemento:
+Implemente um método buscarElemento(int dado) que percorre a lista e retorna true se o dado estiver presente na lista, ou false caso contrário.
+Instruções:
+O método removerDoInicio() deve atualizar a cabeça da lista para apontar para o segundo nó (se houver um).
+O método buscarElemento() deve percorrer a lista, verificando se algum nó contém o dado especificado.
+
+Etapa 4: Desafio Extra (Reversão da Lista)
+Reverter a Lista:
+Implemente o método reverterLista() que inverte a ordem dos nós da lista. O primeiro nó deve se tornar o último, e o último nó deve se tornar o primeiro.
+Instruções:
+Para inverter a lista, você precisará mudar as referências de proximo de cada nó de forma que a lista fique ao contrário.

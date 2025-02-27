@@ -1,13 +1,22 @@
-import ListaSimples.ListaSimples;
+
+import desafio.ListaSimplesDesafio;
 
 public class App {
     public static void main(String[] args) throws Exception {
-        ListaSimples lista = new ListaSimples();
+        ListaSimplesDesafio desafio = new ListaSimplesDesafio();
 
-        lista.add(10);
-        lista.add(20);
-        lista.add(30);
+        desafio.isEmpty();
+        desafio.inserirNoInicio(10);
+        desafio.inserirNoInicio(5);
+        desafio.inserirNoInicio(20);
+        desafio.imprimirLista();
+        desafio.isEmpty();
+        // ListaSimples lista = new ListaSimples();
 
-        lista.display();
+        // lista.add(10);
+        // lista.add(20);
+        // lista.add(30);
+
+        // lista.display();
     }
 }
