@@ -1,0 +1,112 @@
+Atividade de Fixação FIFO
+
+A atividade tem como objetivo implementar uma fila utilizando a estrutura de dados FIFO (First In, First
+Out). A fila será representada por um vetor de 5 posições, e a inserção de elementos será feita com base
+em uma condição aplicada aos dados dos usuários, que incluem o ID, nome, idade e e-mail.
+Requisitos:
+1. Criar uma estrutura de dados Fila que seja capaz de armazenar até 5 usuários.
+2. O programa deve gerar aleatoriamente os dados dos usuários (id, nome, idade, e-mail) – Você
+pode usar o modelo de usuários abaixo (ver no item USUÁRIOS-Exemplo).
+3. A fila deve funcionar de acordo com as regras FIFO, onde o primeiro a entrar será o primeiro a
+sair.
+4. Implementar métodos de:
+o Inserir: Adicionar um usuário à fila, desde que o usuário tenha mais de 18 anos e o seu
+nome contenha pelo menos 2 vogais.
+o Imprimir fila: Exibir todos os elementos presentes na fila.
+o Verificar se a fila está vazia: Retornar um valor indicando se a fila está vazia.
+o Verificar se a fila está cheia: Retornar um valor indicando se a fila está cheia.
+o Remover: Remover o primeiro elemento da fila e atualizar as referências.
+
+Passos:
+1. Gerar os dados de usuários de forma aleatória, contendo id, nome, idade e email.
+2. Iterar sobre o vetor de usuários e, para cada usuário, verificar se ele atende à condição de ser
+inserido na fila.
+3. Inserir na fila os usuários que atendem à condição.
+4. Imprimir a fila antes e depois de cada remoção de elementos.
+5. Remover elementos da fila, imprimindo a fila a cada remoção para visualizar a atualização das
+referências.
+Exemplo de Execução
+1. O programa gera os dados dos usuários.
+2. A fila é preenchida com os usuários que atendem à condição.
+3. A fila é impressa, o primeiro elemento é removido, a fila é impressa novamente, e o processo é
+repetido.
+
+Exemplo Visual:
+Estado Inicial da Fila:
+Fila: [vazio, vazio, vazio, vazio, vazio]
+Após Inserir Usuários:
+Fila: [Usuário 1, Usuário 2, vazio, vazio, vazio]
+Após Remover o Primeiro Usuário:
+Fila: [Usuário 2, vazio, vazio, vazio, vazio]
+Após Remover o Segundo Usuário:
+Fila: [vazio, vazio, vazio, vazio, vazio]
+
+**USUÁRIOS-Exemplo -> Usuários gerados aleatoriamente:
+ID: 1, Nome: João, Idade: 22, Email: joão1@exemplo.com
+ID: 2, Nome: Ana, Idade: 25, Email: ana2@exemplo.com
+ID: 3, Nome: Carlos, Idade: 28, Email: carlos3@exemplo.com
+ID: 4, Nome: Beatriz, Idade: 20, Email: beatriz4@exemplo.com
+ID: 5, Nome: Ricardo, Idade: 27, Email: ricardo5@exemplo.com
+ID: 6, Nome: Mateus, Idade: 24, Email: mateus6@exemplo.com
+ID: 7, Nome: Lucas, Idade: 21, Email: lucas7@exemplo.com
+ID: 8, Nome: Maria, Idade: 23, Email: maria8@exemplo.com
+ID: 9, Nome: Juliana, Idade: 19, Email: juliana9@exemplo.com
+ID: 10, Nome: Fernanda, Idade: 26, Email: fernanda10@exemplo.com
+
+O código deve ser desenvolvido utilizando JAVA.
+
+--------------------------------------------------------------------
+
+Exercícios de fixação e prática – LISTA SIMPLES E
+
+DUPLAMENTE ENCADEADA.
+
+1-) Criação e manipulação de uma lista simples
+Descrição da atividade:
+O objetivo deste exercício é praticar a criação e manipulação de listas simples.
+Você vai implementar uma lista onde cada nó armazenará o nome de um aluno
+e suas três notas. Depois, o programa fará a validação das médias dos alunos e
+removerá aqueles cuja média for inferior a 6. Ao final, o programa deverá imprimir
+a lista original e a lista após a remoção dos alunos.
+Requisitos:
+1. Criação de um nó:
+o O nó deve armazenar:
+ O nome do aluno.
+ As três notas do aluno.
+ Um ponteiro para o próximo nó (representando a lista
+simples).
+
+2. Funções a serem implementadas:
+o Função para inserir um nó: A função deve permitir a inserção de
+um aluno no final da lista.
+o Função para remover um nó: A função deve remover o aluno da
+lista caso a média das suas notas seja menor que 6.
+o Função para imprimir a lista: A função deve imprimir os dados de
+todos os alunos na lista.
+
+3. Passos:
+o Criar 5 alunos com nome e notas.
+o Calcular a média das notas de cada aluno e, se a média for menor
+que 6, remover o aluno da lista.
+o Imprimir a lista original.
+o Imprimir a lista após a remoção dos alunos com média menor que
+6.
+
+2-) Criação e manipulação de uma lista duplamente encadeada
+Descrição da atividade:
+Neste exercício, você deve criar uma lista duplamente encadeada. Cada nó
+conterá um valor inteiro. O objetivo é inserir 5 nós, de acordo com as seguintes
+condições:
+ Se o valor inteiro inserido for ímpar, ele deve ser inserido no final da lista.
+ Se o valor inteiro inserido for par, ele deve ser inserido no início da lista.
+Depois de inserir os nós, o programa deve imprimir a lista com os valores
+inseridos.
+Ao final, a lista deverá ficar com a seguinte sequência: exemplo: [2, 0, 1, 3, 5].
+Funções que devem ser implementadas:
+1. Função de inserir nó: Inserir um novo nó na lista, de acordo com a
+condição do número ser par ou ímpar.
+2. Função de remover nó: Remover um nó específico da lista (caso
+necessário).
+3. Função de imprimir a lista: Exibir os valores presentes na lista.
+4. Função principal (main): Criar os nós, aplicar as regras de inserção e
+imprimir a lista antes e depois da manipulação.

@@ -1,8 +1,0 @@
-Estrutura de dados LISTA
-
-Oque é lista? 
-Sâo estruturas de dados muito flexíveis
-
-LISTA Simplesmente Encadeada (Ou lista simples), estrutura de dados linear em que cada elementoé representado por um nó onde o nó contem:
-valor/Informação: o dado armazenado
-Ponteiro/Referencia para o próximo nó: Um link para o próximo elemento da lista
